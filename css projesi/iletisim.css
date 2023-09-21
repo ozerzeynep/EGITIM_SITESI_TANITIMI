@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+}
+main{
+    width: 570px;
+    height: 450px;
+    background-color: #a4cbf2;
+    float: right;
+    margin-right: 190px;
+    margin-top: 105px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+main h3{
+    text-align: center;
+    margin-top: 72px;
+    font-size: 26px;
+    color: #fff;
+    font-style: italic;
+}
+main ul{
+    text-align: center;
+    margin-top: 55px;
+}
+main input{
+    width: 310px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3180d0;
+    background: transparent;
+    font-size: 17px;
+}
+main input::placeholder{
+    color: #fff;
+}
+main button{
+    margin-top: 20px;
+    margin-left: 230px;
+    padding: 10px 25px;
+    font-size: 17px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #3180d0;
+    border-radius: 25px;
+    transition: 1s;
+}
+main button:hover{
+    color: #3180d0;
+    background-color: #fff;
+    cursor: pointer;
+}
+header iframe{
+    margin-top: 105px;
+    margin-left: 185px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 570px;
+    height: 450px;
+}

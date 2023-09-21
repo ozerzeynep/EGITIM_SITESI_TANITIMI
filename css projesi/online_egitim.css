@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main{
+    height: 707px;
+    width: 1000px;
+    margin: auto;
+    background-color: #a4cbf2;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+main .ikon{
+    border-bottom: 2px dashed #3e93e8;
+    padding-top: 62px;
+}
+main .ikon .logo img{
+    width: 70px;
+    margin-top: -50px;
+    cursor: pointer;
+    display: inline-block;
+}
+main .ikon .logo li{
+    display: inline-block;
+}
+main .ikon .logo ul li a{
+    font-size: 33px;
+    color: #2380dc;
+    padding: 15px;
+    margin-top: -20px;
+    transition: 1s;
+}
+main .ikon .logo ul li a:hover{
+    color: #fff;
+}
+main .ikon .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 25px;
+    padding: 0 15%;
+    margin: 1rem 1rem;
+}
+main .alan-bir{
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 200px;
+    transition: 1s;
+    display: inline-block;
+}
+main .alan-bir:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+main .alan-bir h2{
+    text-align: center;
+    color: #2380dc;
+    font-style: italic;
+    padding-top: 62px;
+}
+main .alan-bir .bilgi{
+    display: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+    color: #2380dc;
+}
+main .alan-bir:hover .bilgi{
+    display: block;
+    transform: scale(1);
+}
+main .alan-iki{
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -200px;
+    margin-left: 550px;
+    transition: 1s;
+}
+main .alan-iki:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+main .alan-iki h2{
+    text-align: center;
+    color: #2380dc;
+    font-style: italic;
+    padding-top: 62px;
+}
+main .alan-iki .bilgi{
+    display: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+    color: #2380dc;
+}
+main .alan-iki:hover .bilgi{
+    display: block;
+    transform: scale(1);
+}
+main h4 span{
+    color: #fff;
+    border-bottom: 2px solid #2380dc;
+}
+main h4{
+    text-align: center;
+    margin-top: 35px;
+    color: #0d6bc8;
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

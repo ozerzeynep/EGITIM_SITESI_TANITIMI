@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main{
+    background-color: #a4cbf2;
+    border-radius: 35rem;
+    margin: 1rem 4%;
+}
+.container .logo img{
+    width: 90px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 25px;
+    padding: 0 15%;
+    margin: 2rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.container li{
+    display: inline-block;
+    margin: 27px;
+}
+.container ul li a{
+    font-size: 22px;
+    color: #3180d0;
+}
+.container ul li a:hover{
+    color: #0e4f90;
+    border-bottom: 2px solid #0e4f90;
+}
+header img{
+    float: right;
+    margin-right: 85px;
+    margin-top: 55px;
+}
+header h3{
+    display: inline-block;
+    margin-top: 105px;
+    margin-left: 65px;
+    font-size: 23px;
+    color: #0e4f90;
+    font-style: italic;
+}
+header span{
+    color: #3180d0;
+    font-size: 25px;
+}
+nav .box{
+    width: 100%;
+    height: 450px;
+    background-color: #a4cbf2;
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+nav .box img{
+    height: 400px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+nav .box h5{
+    padding-top: 120px;
+    font-size: 21px;
+    color: #063e75;
+    font-style: italic;
+    float: right;
+    margin-right: 45px;
+}
+.ilkokul h2{
+    text-align: center;
+    color: #0e4f90;
+    font-size: 45px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.ilkokul .one{
+    width: 200px;
+    margin-left: 430px;
+    display: inline-block;
+    transition: 1s;
+}
+.ilkokul .two{
+    width: 130px;
+    margin-left: 60px;
+    margin-top: -380px;
+    transition: 1s;
+}
+.ilkokul .three{
+    width: 180px;
+    margin-left: 60px;
+    transition: 1s;
+}
+.ilkokul .one:hover,
+.ilkokul .two:hover,
+.ilkokul .three:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.ortaokul h2{
+    text-align: center;
+    color: #0e4f90;
+    font-size: 45px;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 5rem;
+}
+.ortaokul .four{
+    width: 180px;
+    margin-left: 430px;
+    display: inline-block;
+    transition: 1s;
+}
+.ortaokul .five{
+    width: 100px;
+    margin-left: 60px;
+    transition: 1s;
+}
+.ortaokul .six{
+    width: 110px;
+    margin-left: 110px;
+    transition: 1s;
+}
+.ortaokul .four:hover,
+.ortaokul .five:hover,
+.ortaokul .six:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.lise h2{
+    text-align: center;
+    color: #0e4f90;
+    font-size: 45px;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 5rem;
+}
+.lise .seven{
+    width: 155px;
+    margin-left: 460px;
+    display: inline-block;
+    transition: 1s;
+    margin-top: -10px;
+}
+.lise .eight{
+    width: 140px;
+    transition: 1s;
+    margin-left: 60px;
+}
+.lise .nine{
+    width: 150px;
+    transition: 1s;
+    margin-left: 60px;
+}
+.lise .seven:hover,
+.lise .eight:hover,
+.lise .nine:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.ales h2{
+    text-align: center;
+    color: #0e4f90;
+    font-size: 45px;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 5rem;
+}
+.ales .ten{
+    width: 100px;
+    transition: 1s;
+    margin-left: 460px;
+    display: inline-block;
+}
+.ales .eleven{
+    width: 100px;
+    transition: 1s;
+    margin-left: 110px;
+}
+.ales .twelve{
+    width: 100px;
+    transition: 1s;
+    margin-left: 100px;
+}
+.ales .ten:hover,
+.ales .eleven:hover,
+.ales .twelve:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.yds h2{
+    text-align: center;
+    color: #0e4f90;
+    font-size: 45px;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 5rem;
+}
+.yds .thirteen{
+    width: 100px;
+    transition: 1s;
+    margin-left: 460px;
+    display: inline-block;
+}
+.yds .fourteen{
+    width: 110px;
+    transition: 1s;
+    margin-left: 90px;
+}
+.yds .fiveteen{
+    width: 130px;
+    transition: 1s;
+    margin-left: 90px;
+}
+.yds .thirteen:hover,
+.yds .fourteen:hover,
+.yds .fiveteen:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+video{
+    margin-top: 100px;
+    margin-left: 290px;
+    margin-bottom: 60px;
+    border: 6px solid #063e75;
+}
+.main{
+    margin-top: 100px;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(253, 253, 142);
+    margin-bottom: 100px;
+    margin-left: 60px;
+    box-shadow: rgb(237, 237, 104) 5px 5px, rgb(237, 237, 104) 10px 10px, rgb(237, 237, 104) 15px 15px, rgb(237, 237, 104) 20px 20px, rgb(237, 237, 104) 25px 25px;
+    transition: 1s;
+    display: inline-block;
+}
+.main:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.main img{
+    width: 175px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.main h6{
+    float: right;
+    font-size: 22px;
+    font-style: italic;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.main p{
+    float: right;
+    margin-top: -110px;
+    font-size: 18px;
+}
+.main-two{
+    margin-top: 100px;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(141, 250, 141);
+    margin-bottom: 100px;
+    float: right;
+    margin-right: 60px;
+    box-shadow: rgb(100, 245, 100) 5px 5px, rgb(100, 245, 100) 10px 10px, rgb(100, 245, 100) 15px 15px, rgb(100, 245, 100) 20px 20px, rgb(100, 245, 100) 25px 25px;
+    transition: 1s;
+}
+.main-two:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.main-two img{
+    width: 234px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.main-two h6{
+    float: right;
+    font-size: 22px;
+    font-style: italic;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.main-two p{
+    margin-left: 260px;
+    font-size: 17px;
+    margin-top: -100px;
+}
+.main-three{
+    margin-top: 110px;
+    width: 500px;
+    height: 200px;
+    background-color: #a4cbf2;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    box-shadow: rgb(54, 144, 234) 5px 5px, rgb(54, 144, 234) 10px 10px, rgb(54, 144, 234) 15px 15px, rgb(54, 144, 234) 20px 20px, rgb(54, 144, 234) 25px 25px;
+    transition: 1s;
+    display: inline-block;
+}
+.main-three:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.main-three img{
+    width: 205px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.main-three h6{
+    float: right;
+    font-size: 22px;
+    font-style: italic;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.main-three p{
+    float: right;
+    margin-top: -110px;
+    font-size: 18px;
+}
+.main-four{
+    margin-top: 110px;
+    width: 500px;
+    height: 200px;
+    background-color: pink;
+    margin-bottom: 100px;
+    float: right;
+    margin-right: 60px;
+    box-shadow: rgb(250, 155, 171) 5px 5px, rgb(250, 155, 171) 10px 10px, rgb(250, 155, 171) 15px 15px, rgb(250, 155, 171) 20px 20px, rgb(250, 155, 171) 25px 25px;
+    transition: 1s;
+}
+.main-four:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.main-four img{
+    width: 234px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.main-four h6{
+    float: right;
+    font-size: 22px;
+    font-style: italic;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.main-four p{
+    margin-left: 260px;
+    font-size: 17px;
+    margin-top: -120px;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #a4cbf2;
+    position: relative;
+    text-align: center;
+}
+footer img{
+    width: 140px;
+    margin-top: 25px;
+    transition: 1s;
+}
+footer img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+footer h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    font-style: italic;
+    color: #063e75;
+}
+footer i{
+    cursor: pointer;
+    margin: 11px 15px;
+    font-size: 33px;
+    color: #08417a;
+    transition: 1s;
+}
+footer i:hover{
+    color: #fff;
+}

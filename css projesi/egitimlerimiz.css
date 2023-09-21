@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #fff;
+}
+main .one{
+    width: 400px;
+    height: 650px;
+    background-color: rgb(255, 135, 255);
+    border-radius: 35px;
+    margin: 20px 75px;
+    transition: 1s;
+    display: inline-block;
+}
+main .one h2{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    color: #fff;
+    font-style: italic;
+}
+main .one .one-one{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    transition: 1s;
+}
+main .one .one-one:hover{
+    transform: scale(1.3);
+}
+main .one .one-one p{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(170, 7, 170);
+    font-style: italic;
+}
+main .one img{
+    width: 230px;
+    margin-top: 3px;
+    margin-left: 80px;
+}
+main .one h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    font-style: italic;
+    color: #fff;
+}
+main .one button{
+    margin-top: 33px;
+    margin-left: 100px;
+    padding: 20px 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: purple;
+    font-style: italic;
+    transition: 1s;
+}
+main .one button:hover{
+    color:#fff;
+    background-color: purple;
+}
+header .two{
+    width: 400px;
+    height: 650px;
+    background-color: #aed8ff;
+    border-radius: 35px;
+    margin: 20px 565px;
+    transition: 1s;
+    margin-top: -670px;
+}
+header .two h2{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    color: #fff;
+    font-style: italic;
+}
+header .two .two-two{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    transition: 1s;
+}
+header .two .two-two:hover{
+    transform: scale(1.3);
+}
+header .two .two-two p{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(170, 7, 170);
+    font-style: italic;
+}
+header .two img{
+    width: 230px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+header .two h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    font-style: italic;
+    color: #fff;
+}
+header .two button{
+    margin-top: 33px;
+    margin-left: 100px;
+    padding: 20px 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: purple;
+    font-style: italic;
+    transition: 1s;
+}
+header .two button:hover{
+    color: #fff;
+    background-color: #468ed1;
+}
+header .three{
+    width: 400px;
+    height: 650px;
+    background-color: rgb(169, 253, 169);
+    border-radius: 35px;
+    margin: 20px 1055px;
+    transition: 1s;
+    margin-top: -670px;
+}
+header .three h2{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    color: #fff;
+    font-style: italic;
+}
+header .three .three-three{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: right;
+    margin-top: -75px;
+    margin-right: 20px;
+    transition: 1s;
+}
+header .three .three-three:hover{
+    transform: scale(1.3);
+}
+header .three .three-three p{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(170, 7, 170);
+    font-style: italic;
+}
+header .three img{
+    width: 230px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+header .three h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    font-style: italic;
+    color: #fff;
+}
+header .three button{
+    margin-top: 33px;
+    margin-left: 100px;
+    padding: 20px 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: purple;
+    font-style: italic;
+    transition: 1s;
+}
+header .three button:hover{
+    color: #fff;
+    background-color: rgb(64, 190, 64);
+}
+header .four{
+    width: 400px;
+    height: 650px;
+    background-color: pink;
+    border-radius: 35px;
+    margin: 20px 75px;
+    transition: 1s;
+    margin-top: 110px;
+}
+header .four h2{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    color: #fff;
+    font-style: italic;
+}
+header .four .four-four{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    transition: 1s;
+}
+header .four .four-four:hover{
+    transform: scale(1.3);
+}
+header .four .four-four p{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(170, 7, 170);
+    font-style: italic;
+}
+header .four img{
+    width: 230px;
+    margin-top: -35px;
+    margin-left: 80px;
+}
+header .four h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    font-style: italic;
+    color: #fff;
+}
+header .four button{
+    margin-top: 33px;
+    margin-left: 100px;
+    padding: 20px 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: purple;
+    font-style: italic;
+    transition: 1s;
+}
+header .four button:hover{
+    color: #fff;
+    background-color: rgb(249, 128, 148);
+}
+header .five{
+    width: 400px;
+    height: 650px;
+    background-color: rgb(255, 196, 85);
+    border-radius: 35px;
+    margin: 20px 565px;
+    transition: 1s;
+    margin-top: -670px;
+}
+header .five h2{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    color: #fff;
+    font-style: italic;
+}
+header .five .five-five{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: right;
+    margin-top: -75px;
+    margin-right: 20px;
+    transition: 1s;
+}
+header .five .five-five:hover{
+    transform: scale(1.3);
+}
+header .five .five-five p{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(170, 7, 170);
+    font-style: italic;
+}
+header .five img{
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+header .five h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    font-style: italic;
+    color: #fff;
+}
+header .five button{
+    margin-top: 33px;
+    margin-left: 100px;
+    padding: 20px 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: purple;
+    font-style: italic;
+    transition: 1s;
+}
+header .five button:hover{
+    color: #fff;
+    background-color: rgb(209, 145, 27);
+}
+header .six{
+    width: 400px;
+    height: 650px;
+    background-color: rgb(255, 72, 115);
+    border-radius: 35px;
+    margin: 20px 1055px;
+    transition: 1s;
+    margin-top: -670px;
+}
+header .six h2{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    color: #fff;
+    font-style: italic;
+}
+header .six .six-six{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: right;
+    margin-top: -75px;
+    margin-right: 20px;
+    transition: 1s;
+}
+header .six .six-six:hover{
+    transform: scale(1.3);
+}
+header .six .six-six p{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(170, 7, 170);
+    font-style: italic;
+}
+header .six img{
+    width: 230px;
+    margin-top: -28px;
+    margin-left: 80px;
+}
+header .six h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    font-style: italic;
+    color: #fff;
+}
+header .six button{
+    margin-top: 33px;
+    margin-left: 100px;
+    padding: 20px 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: purple;
+    font-style: italic;
+    transition: 1s;
+}
+header .six button:hover{
+    color: #fff;
+    background-color: rgb(210, 31, 72);
+}

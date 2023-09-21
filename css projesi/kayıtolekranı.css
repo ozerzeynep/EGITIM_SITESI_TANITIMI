@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+}
+header .kayıt{
+    width: 800px;
+    height: 520px;
+    background-color: #a4cbf2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+header h2{
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 27px;
+    font-style: italic;
+}
+header ul{
+    text-align: center;
+    margin-top: 60px;
+}
+header input{
+    width: 330px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3180d0;
+    background: transparent;
+    font-size: 17px;
+}
+header input::placeholder{
+    color: #fff;
+}
+header .kayıt button{
+    padding: 15px 70px;
+    margin-left: 295px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 3px solid #3180d0;
+    border-radius: 20px;
+    color: #fff;
+    background-color: transparent;
+    transition: 1s;
+}
+header .kayıt button:hover{
+    background-color: #fff;
+    color: #3180d0;
+    cursor: pointer;
+}
